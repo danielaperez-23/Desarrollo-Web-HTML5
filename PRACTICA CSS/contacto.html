@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul {
+               list-style-type: none;
+               margin: 0;
+               padding: 0;
+               overflow: hidden;
+               background-color: #333;
+               }
+       
+               li {
+               float: left;
+               }
+       
+               li a {
+               display: block;
+               color: white;
+               text-align: center;
+               padding: 14px 16px;
+               text-decoration: none;
+               }
+       
+               li a:hover {
+               background-color: rgb(69, 179, 179);
+               }
+               </style>
+               <style>
+                input[type=text], select {
+                  width: 100%;
+                  padding: 12px 20px;
+                  margin: 8px 0;
+                  display: inline-block;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                  box-sizing: border-box;
+                }
+                
+                input[type=submit] {
+                  width: 100%;
+                  background-color: #4CAF50;
+                  color: white;
+                  padding: 14px 20px;
+                  margin: 8px 0;
+                  border: none;
+                  border-radius: 4px;
+                  cursor: pointer;
+                }
+                
+                input[type=submit]:hover {
+                  background-color: #45a049;
+                }
+                
+                div {
+                  border-radius: 5px;
+                  background-color: #f2f2f2;
+                  padding: 20px;
+                }
+                </style>
+    </head>
+     <body>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="SERVICIOS.HTML">SERVICIOS</a></li>
+            <li><a href="Sobre mi.html">SOBRE MI</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+          </ul>
+          <h3>¿Necesitas más información? Escríbenos</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Nombre</label>
+    <input type="text" id="fname" name="Nombre" placeholder="Tu nombre..">
+
+    <label for="lname">Telefono</label>
+    <input type="text" id="lname" name="Telefono" placeholder="Tu Telefono..">
+
+    <label for="lname">E-mail</label>
+    <input type="text" id="lname" name="E-mail" placeholder="Tu E-mail..">
+
+    <label for="country">E-mail</label>
+    <select id="country" name="country">
+      <option value="Mexico">Mexico</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <input type="submit" value="Enviar">
+  </form>
+</div>
+     </body>     
+</html>
